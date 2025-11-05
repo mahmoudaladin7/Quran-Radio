@@ -1,0 +1,17 @@
+# Tweak GitHub Linguist so Dart is primary
+
+# Generated files (exclude from language stats)
+build/** linguist-generated
+**/build/** linguist-generated
+*.g.dart linguist-generated
+*.freezed.dart linguist-generated
+*.mocks.dart linguist-generated
+
+# Platform scaffolding (count as vendored so they don't skew stats)
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+linux/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
+

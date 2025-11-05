@@ -33,6 +33,9 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Ignore nested build directories (Android/iOS/macOS/Linux/Windows)
+**/build/
+
 # Symbolication related
 app.*.symbols
 
